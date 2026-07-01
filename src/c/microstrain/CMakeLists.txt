@@ -45,7 +45,7 @@ if(MICROSTRAIN_ENABLE_LOGGING)
         source_group(TREE ${MICROSTRAIN_SRC_DIR} FILES ${MICROSTRAIN_LOGGING_SOURCES})
     endif()
 
-    message("MicroStrain logging is enabled. Max level = '${MICROSTRAIN_LOGGING_MAX_LEVEL}'")
+    message(STATUS "MicroStrain logging is enabled. Max level = '${MICROSTRAIN_LOGGING_MAX_LEVEL}'")
 
     target_compile_definitions(${MICROSTRAIN_LIBRARY} PUBLIC
         "MICROSTRAIN_ENABLE_LOGGING" "MICROSTRAIN_LOGGING_MAX_LEVEL=${MICROSTRAIN_LOGGING_MAX_LEVEL}"

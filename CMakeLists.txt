@@ -51,7 +51,7 @@ option(MICROSTRAIN_BUILD_DOCUMENTATION       "Build the documentation." OFF)
 option(MICROSTRAIN_BUILD_DOCUMENTATION_FULL  "Build the full (internal) documentation." OFF)
 option(MICROSTRAIN_BUILD_DOCUMENTATION_QUIET "Suppress doxygen standard output." ON)
 
-option(MICROSTRAIN_CMAKE_DEBUG "If set, prints build system debug info such as source files and preprocessor definitions." ON)  # TODO: off by default
+option(MICROSTRAIN_CMAKE_DEBUG "If set, prints build system debug info such as source files and preprocessor definitions." OFF)
 mark_as_advanced(MICROSTRAIN_CMAKE_DEBUG)
 
 # MIP options
